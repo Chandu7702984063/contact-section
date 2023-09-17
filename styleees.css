@@ -1,0 +1,49 @@
+/* Style for the first div (Contact Form) */
+.contact-container {
+    background: linear-gradient(to top, #E6CBA1, #90C3D4); /* Light Brown to Light Blue */
+    padding: 20px;
+    border-radius: 10px;
+    color: black; /* Text color is black */
+    text-align: center;
+    font-weight: 700; /* Set font weight to 700 */
+}
+
+/* Style for the second div (Logo and Paragraph) */
+.logo-container {
+    background: linear-gradient(to bottom, #33CCFF, #3366FF);
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px; /* Add padding to the second div */
+    color: white; /* Text color is white */
+}
+
+/* Style for the logo image */
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the paragraph */
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700; /* Set font weight to 700 */
+}
+
+/* Style for the send button */
+.send-button {
+    background: linear-gradient(to bottom, #33CCFF, #3366FF);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 10px;
+    }
+}
